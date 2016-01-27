@@ -18,7 +18,7 @@ before_install:
  
   - export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
 
- 
+  - echo PWD=$PWD, ANDOID_HOME = ${ANDROID_HOME}  
 
   # Install required components.
 
