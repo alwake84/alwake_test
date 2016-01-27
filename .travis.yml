@@ -13,9 +13,9 @@ before_install:
   - wget http://dl.google.com/android/android-sdk_r23-linux.tgz
 
   - tar xzf android-sdk_r23-linux.tgz
-
+  # PWD = $PWD
   - export ANDROID_HOME=$PWD/android-sdk-linux
-
+ 
   - export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
 
  
